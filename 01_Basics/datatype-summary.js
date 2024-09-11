@@ -40,3 +40,29 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+//++++++
+let myYt = "Nikhilkhot"
+
+let anotherYt = myYt
+anotherYt = "Dev"
+
+console.log(myYt);
+console.log(anotherYt);
+
+let userOne = {
+    email : "nikhilkhot@gmail.com",
+    upi : "xyz"
+}
+
+let userTwo = userOne
+
+userTwo.email = "khotnikhil@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
+
+
